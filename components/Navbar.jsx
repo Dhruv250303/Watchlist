@@ -11,14 +11,14 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex border-[3px] space-x-7 items-center pl-5 py-7 w-[100%] ${
+      className={`fixed top-0 left-0 right-0 flex border-b-2 space-x-7 items-center pl-5 py-4 w-full z-10 ${
         darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
       }`}
     >
       <img
         className="w-[60px]"
         src={"https://icon-library.com/images/movies-icon-png/movies-icon-png-8.jpg"}
-        alt=""
+        alt="Movies Icon"
       />
       <Link to="/home" className="text-blue-500 text-2xl font-bold">
         Home
@@ -39,3 +39,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

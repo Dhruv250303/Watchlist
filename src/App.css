@@ -2,4 +2,7 @@ body.dark-mode {
     background-color: #121212;
     color: white;
   }
+  body {
+    padding-top: 4rem; /* Adjust this value based on the height of your navbar */
+  }
   
